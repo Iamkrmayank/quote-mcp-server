@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+requests
+beautifulsoup4
+boto3
+simple_image_download
+azure-storage-blob
+openai
+python-multipart
+python-dotenv

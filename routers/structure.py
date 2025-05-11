@@ -5,7 +5,6 @@ from typing import List, Optional
 import pandas as pd
 
 router = APIRouter()
-
 class QuoteItem(BaseModel):
     serial: int
     quote: str

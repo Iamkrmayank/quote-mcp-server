@@ -9,3 +9,5 @@ azure-storage-blob
 openai
 python-multipart
 python-dotenv
+sqlalchemy 
+psycopg2-binary

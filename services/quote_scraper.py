@@ -99,6 +99,7 @@ def save_quotes_to_postgres(quotes):
             quote TEXT,
             link TEXT,
             author TEXT,
+            status TEXT DEFAULT 'Pending',
             UNIQUE(quote, author)
         );
     """)
@@ -113,3 +114,4 @@ def save_quotes_to_postgres(quotes):
     conn.commit()
     cur.close()
     conn.close()
+    print(f"✅ Inserted {len(quotes)} quotes into PostgreSQL with status 'Pending'.")
